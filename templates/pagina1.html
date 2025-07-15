@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 1</title>
+    <style>body { font-family: sans-serif; text-align: center; margin-top: 5rem; }</style>
+</head>
+<body>
+    <h1>Bem-vindo à Página 1, {{ user.username }}!</h1>
+    <p>Você pertence ao Grupo 1.</p>
+    <a href="{% url 'logout' %}">Sair (Logout)</a>
+</body>
+</html>
